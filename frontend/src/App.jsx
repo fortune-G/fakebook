@@ -7,7 +7,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex justify-end mt-4 mx-3'>
+    <>
+    <p className='text-3xl font-serif font-extrabold ml-3 mt-3'>FakeBook</p>
+    <div className='flex justify-end mt-0 mx-3'>
       <label className="flex cursor-pointer gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +39,8 @@ function App() {
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
   </svg>
 </label>
-    </div>
+    </div> 
+    </>
   )
 }
 
