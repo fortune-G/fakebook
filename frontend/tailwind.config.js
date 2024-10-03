@@ -10,4 +10,17 @@ export default {
   plugins: [require('daisyui'),
     
   ],
+  daisyui: {
+    theme : [
+      {
+        mytheme : {
+          "primary" : "#efc90b", 
+          "secondary" : "#42b72a",
+          "accent" : "#37cdbe",
+          "neutral" : "#3d4451",
+          "base-100" : "#ffffff"
+        }
+      }
+    ]
+  }
 }
